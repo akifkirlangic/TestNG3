@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit 1">
+    <test name="Test 1">
+
+        <!--hangi test grupları çalıştırılacak -->
+        <groups>
+            <run>
+                <include name="SmokeTest"></include>
+            </run>
+        </groups>
+
+
+        <!--çalışacak classların yazıldığı bölüm -->
+        <!--Exclude haric demek yani burda test4 haric -->
+        <classes>
+            <class name="Gun05._01_Groups">
+                <methods>
+                    <exclude name="Test4"></exclude>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>

@@ -1,0 +1,51 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit 1">     <!-- Tüm testleri kapsayan bölüm -->
+    <test name="Test 1">  <!-- Test 1 i kapsayan bölüm -->
+        <classes>         <!-- Çalışacak sınıfların yazıldığı bölüm -->
+            <class name="Gun04._03_Intro"></class>
+            <class name="Gun04._02_Intro"></class>
+        </classes>
+    </test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+1 suit
+1 test
+2 class var
+
+
+Before Suit
+Before Test
+
+Before Class
+
+Before Method
+Test Intro 1
+After Method
+
+Before Method
+Test Intro 2
+After Method
+
+After Class
+      /////////////// after test ve suit test 1 ve test 2 ye ait
+Test 1
+Test 2
+
+After Test
+After Suit
+      ///////////////
+
+ -->

@@ -1,0 +1,45 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Suit 1">     <!-- Tüm testleri kapsayan bölüm -->
+    <test name="Test 1">  <!-- Test 1 i kapsayan bölüm -->
+        <classes>         <!-- Çalışacak sınıfların yazıldığı bölüm -->
+            <class name="Gun04._03_Intro"></class>
+        </classes>
+    </test>
+
+    <test name="Test 2">  <!-- Test 2 yi kapsayan bölüm -->
+        <classes>         <!-- Çalışacak sınıfların yazıldığı bölüm -->
+            <class name="Gun04._02_Intro"></class>
+        </classes>
+    </test>
+</suite>
+
+
+
+
+
+
+
+<!--
+
+Before Suit
+
+Before Test
+Before Class
+Before Method
+Test Intro 1
+After Method
+Before Method
+Test Intro 2
+After Method
+After Class
+After Test
+
+Test 1
+Test 2
+
+After Suit  // Tüm testler bittiğinde en son After Suiti çalıştırıyo
+
+
+ -->
